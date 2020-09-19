@@ -1,0 +1,230 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
+    --title-theme-color: #212121;
+    --text-theme-color: #757575;
+    --animation-theme-color: #2196F3;
+}
+
+body {
+    font-style: normal;
+    font-family: var(--main-font);
+    color: var(--title-theme-color);
+}
+
+button{
+    font-family: inherit;
+}
+
+.nav-list-link.current {
+    color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+  
+.link {
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+/*  ============ Logo  ============ */
+.logo-web {
+font-family: var(--logo-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.logo-studio {
+font-family: var(--logo-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+/*  ============ End Logo  ============ */
+
+/*  ============ HEADER  ============ */
+
+.nav-list-link {
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: var(--title-theme-color);
+}
+
+.header-tel-link,
+.header-email-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.2em;
+  color: var(--text-theme-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus, 
+.header-email-link:focus,
+.header-email-link:hover {
+  color: var(--animation-theme-color);
+}
+/*  ============ END HEADER  ============ */
+
+/*  ============ main section  ============ */
+.portfolio-list-button-item {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+border: 1px solid;
+border-radius: 4px
+}
+
+.portfolio-list-button-item:hover,
+.portfolio-list-button-item:focus {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color:#2196F3;
+    border: 1px solid #000000;
+    border-radius: 4px
+}
+
+
+/*  ============ End main section  ============ */
+
+/*  ============ Benefits  ============ */
+.benefits-list-item {
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-theme-color);
+}
+
+.benefits-list-text {
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--text-theme-color);
+}
+/*  ============ End benefits  ============ */
+
+/*  ============ doing + team  ============ */
+.doing-title,
+.team-title {
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-theme-color);
+}
+.team-person {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-theme-color);
+}
+
+.team-role {
+font-family: var(--main-font);;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--text-theme-color);
+}
+/*  ============ End doing + team  ============ */
+
+/*  ============ footer  ============ */
+.footer-tel-link,
+.footer-email-link,
+.footer-adress-link {
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: black;
+/* color: rgba(255, 255, 255, 0.6); */
+}
+
+/* .footer-tel-link,
+.footer-email-link {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress-link {
+     color: #FFFFFF; 
+} */
+/*  ============ End footer  ============ */
+
+/*  ============ portfolio button  ============ */
+.portfolio-list-button {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--title-theme-color);
+    
+}
+
+.portfolio-list-button:hover,
+.portfolio-list-button:focus {
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em; 
+/* color: #FFFFFF; */
+}
+/*  ============ End portfolio button  ============ */
+
+/*  ============ portfolio-project  ============ */
+.portfolio-project-title {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-theme-color);    
+}
+
+.portfolio-project-type {
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--text-theme-color);
+}
+
+/*  ============ End portfolio-project  ============ */
