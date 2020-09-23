@@ -27,7 +27,7 @@ img {
 }
 
 .container {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -89,7 +89,7 @@ button {
 .navigation .nav {
   display: flex;
   align-items: center;
-  padding: 0 215px;
+  /* padding: 0 215px; */
 }
 
 .address .address-nav {
@@ -141,9 +141,12 @@ color: var(--animation-theme-color);
 
 .main-section .container {
     height: 600px;
-    background-color: rgba(47, 48, 58, 100);
     text-align: center;
   }
+
+.main-section {
+  background-color: rgba(47, 48, 58, 100);
+}
 
 .main-section-title {
   font-family: var(--main-font);
@@ -180,8 +183,12 @@ color: var(--animation-theme-color);
   height: 195px;
 }
 
+.benefits-list {
+  width: 270px;
+}
+
 .benefits-title-group {
-  padding: 94px 215px 0;
+  padding-top: 94px;
 }
 
 .benefits-title-group {
@@ -218,7 +225,8 @@ color: var(--animation-theme-color);
 
 .doing .container {
   height: 574px;
-  padding: 94px 215px 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .doing-item {
@@ -261,8 +269,11 @@ color: var(--animation-theme-color);
 
 .team .container {
   height: 646px;
+  padding-top: 94px;
+}
+
+.team {
   background-color: #F5F4FA;
-  padding: 94px 215px;
 }
 
 .team-group {
@@ -292,8 +303,11 @@ color: var(--animation-theme-color);
   letter-spacing: 0.03em;
 }
 
-.footer .container {
+.footer {
   background-color: #2F303A;
+}
+
+.footer .container {
   height: 252px;
 }
 
@@ -312,13 +326,11 @@ color: var(--animation-theme-color);
 
 .logo-footer {
   padding-top: 60px;
-  padding-left: 215px;
 }
 
 .contact-footer {
   margin-top: 20px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 
 .container .logo-web {
@@ -380,12 +392,9 @@ color: var(--animation-theme-color);
 
 .portfolio-project .container {
   height: 1548px;
-  padding: 94px 215px 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-
-/* .portfolio-container {
-  padding: 94px 215px 94px;
-} */
 
 .portfolio-project-group {
   display: flex;
