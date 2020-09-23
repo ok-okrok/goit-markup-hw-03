@@ -381,7 +381,6 @@ color: var(--animation-theme-color);
 .portfolio-project .container {
   height: 1548px;
   padding: 94px 215px 94px;
-  
 }
 
 /* .portfolio-container {
@@ -410,6 +409,7 @@ color: var(--animation-theme-color);
   height: 404px;
   width: 370px;
   border: 1px solid rgba(238, 238, 238, 1);
+  padding-bottom: 20px;
 }
 
 .portfolio-project-title {
